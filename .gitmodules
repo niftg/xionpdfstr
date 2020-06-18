@@ -1,0 +1,3 @@
+[submodule "xionpdf_pdfjsdocpagedata"]
+	path = xionpdf_pdfjsdocpagedata
+	url = https://github.com/niftg/xionpdf_pdfjsdocpagedata.git
