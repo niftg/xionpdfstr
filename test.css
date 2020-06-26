@@ -1,0 +1,15 @@
+[maybe-page-num] {color: gray; font-size: x-small; vertical-align: sub;}
+[maybe-empty-line]:before {color: lightgray; content:"\2B1A";}
+
+@font-face {
+	font-family: "kardinal";
+	src: url("./kardinal.ttf") format("truetype");
+}
+[font-name="kardinal"] {font-family: "kardinal";}
+@font-face {
+	font-family: "ayaka";
+	src: url("./ayaka.ttf") format("truetype");
+}
+[font-name="ayaka"] {font-family: "ayaka";}
+
+[font-name="IPAm"], [font-name="___"] {font-family: serif;}
