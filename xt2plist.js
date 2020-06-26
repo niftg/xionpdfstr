@@ -35,7 +35,7 @@ function maybeNewP(currentItem, prevItem) {
 	var pnprev = prevItem.pageNum;
 	var regexs = [/^\s\s/, /^[「\"]/, /^\s*$/] //indent, quote, space
 
-	return (regexs.some(re=>re.test(str))) && (t5prev-t5>10||pn!=pnprev) && !maybePageNum(currentItem);
+	return (regexs.some(re=>re.test(str))) && (Math.abs(t5prev-t5)>10||pn!=pnprev) && !maybePageNum(currentItem);
 }
 function maybePageNum(item) {
 	return item.transform[5] < 30;
