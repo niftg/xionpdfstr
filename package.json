@@ -1,0 +1,22 @@
+{
+  "name": "xionpdfstr",
+  "version": "0.0.0",
+  "description": "",
+  "main": null,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niftg/xionpdfstr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niftg/xionpdfstr/issues"
+  },
+  "private": true,
+  "dependencies": {
+    "node-html-parser": "^1.2.20"
+  }
+}
