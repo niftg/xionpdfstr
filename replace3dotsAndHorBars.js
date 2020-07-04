@@ -14,8 +14,9 @@ let new_xp = xp.childNodes.map(e=>{
 		//if(matchInP){console.log(e)}
 		return e;
 	}else{
-		let newElm = parser.parse(e.toString());
-		newElm.childNodes[0].childNodes.forEach(cn=>{ // contained as first/only child of null-tagName root element
+		let newElmParsed = parser.parse(e.toString());
+		let newElm = newElmParsed.childNodes[0]; // contained as first/only child of null-tagName root element
+		newElm.childNodes.forEach(cn=>{
 			let fn = cn.getAttribute('font-name');
 			if(fn=='IPAm'){
 				cn.set_content(cn.text.replace(reD3, threeDots));
